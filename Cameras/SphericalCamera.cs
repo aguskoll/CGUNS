@@ -1,16 +1,16 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using OpenTK;
 
 namespace CGUNS.Cameras
 {
-    /// <summary>
+   
     /// Representa una Camara en coordenadas esfericas.
     /// La camara apunta y orbita alrededor del origen de coordenadas (0,0,0).
     /// El vector "up" de la camara es esl eje "Y" (0,1,0).
     /// La posicion de la camara esta dada por 3 valores: Radio, Theta, Phi.
-    /// </summary>
+ 
     class SphericalCamera
     {
         private const float DEG2RAD = (float)(Math.PI / 180.0); //Para pasar de grados a radianes
